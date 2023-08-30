@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ncurses_tutorial"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "example2::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example2-Release-53116a6877895cfd21fd.json",
+					"name" : "example2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example3::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example3-Release-5ef8dc59fb6a7081e836.json",
+					"name" : "example3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example4::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example4-Release-59b32a9c279408b36d61.json",
+					"name" : "example4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example5::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example5-Release-c0e23ca746988f62c0e0.json",
+					"name" : "example5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example6::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example6-Release-88d8729aa864de319570.json",
+					"name" : "example6",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example7::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example7-Release-87a052f7844a69e086e0.json",
+					"name" : "example7",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example8::@145eef247bfb46b6828c",
+					"jsonFile" : "target-example8-Release-63f552859abc129299ac.json",
+					"name" : "example8",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "helloworld::@145eef247bfb46b6828c",
+					"jsonFile" : "target-helloworld-Release-962f46b3849673c35d23.json",
+					"name" : "helloworld",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wr/Documents/libncurses_tutorial/build",
+		"source" : "/home/wr/Documents/libncurses_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

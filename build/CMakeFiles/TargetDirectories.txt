@@ -1,0 +1,12 @@
+/home/wr/Documents/libncurses_tutorial/build/CMakeFiles/edit_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/CMakeFiles/rebuild_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/helloworld.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example2.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example3.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example4.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example5.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example6.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example7.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/example8.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/edit_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/CMakeFiles/rebuild_cache.dir
