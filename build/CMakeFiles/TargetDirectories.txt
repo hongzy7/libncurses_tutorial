@@ -22,3 +22,9 @@
 /home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows/CMakeFiles/example8.dir
 /home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows/CMakeFiles/edit_cache.dir
 /home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows/CMakeFiles/rebuild_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch10_Colors/CMakeFiles/example9.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch10_Colors/CMakeFiles/edit_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch10_Colors/CMakeFiles/rebuild_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/edit_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/rebuild_cache.dir

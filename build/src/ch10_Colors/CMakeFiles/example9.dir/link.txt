@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -std=c++17 -lncurses -O3 -DNDEBUG -rdynamic CMakeFiles/example9.dir/example9.cpp.o -o example9  -lncurses 

@@ -7,6 +7,8 @@ add_subdirectory(ch6_Output_Functions)
 add_subdirectory(ch7_Input_Functions)
 add_subdirectory(ch8_Attributes)
 add_subdirectory(ch9_Windows)
+add_subdirectory(ch10_Colors)
+add_subdirectory(ch11_Interfacing_with_the_key_board)
 
 
 

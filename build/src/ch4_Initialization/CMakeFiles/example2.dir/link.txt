@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -std=c++11 -lncurses -O3 -DNDEBUG -rdynamic CMakeFiles/example2.dir/example2.cpp.o -o example2  -lncurses 
+/usr/bin/c++ -O3 -std=c++17 -lncurses -O3 -DNDEBUG -rdynamic CMakeFiles/example2.dir/example2.cpp.o -o example2  -lncurses 

@@ -220,6 +220,32 @@ example8/fast:
 	$(MAKE) $(MAKESILENT) -f src/ch9_Windows/CMakeFiles/example8.dir/build.make src/ch9_Windows/CMakeFiles/example8.dir/build
 .PHONY : example8/fast
 
+#=============================================================================
+# Target rules for targets named example9
+
+# Build rule for target.
+example9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example9
+.PHONY : example9
+
+# fast build rule for target.
+example9/fast:
+	$(MAKE) $(MAKESILENT) -f src/ch10_Colors/CMakeFiles/example9.dir/build.make src/ch10_Colors/CMakeFiles/example9.dir/build
+.PHONY : example9/fast
+
+#=============================================================================
+# Target rules for targets named example10
+
+# Build rule for target.
+example10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example10
+.PHONY : example10
+
+# fast build rule for target.
+example10/fast:
+	$(MAKE) $(MAKESILENT) -f src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/build.make src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/build
+.PHONY : example10/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -228,6 +254,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... example10"
 	@echo "... example2"
 	@echo "... example3"
 	@echo "... example4"
@@ -235,6 +262,7 @@ help:
 	@echo "... example6"
 	@echo "... example7"
 	@echo "... example8"
+	@echo "... example9"
 	@echo "... helloworld"
 .PHONY : help
 

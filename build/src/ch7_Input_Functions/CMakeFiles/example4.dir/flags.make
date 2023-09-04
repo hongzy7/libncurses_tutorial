@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
+CXX_FLAGS = -O3 -std=c++17 -lncurses -O3 -DNDEBUG
 
