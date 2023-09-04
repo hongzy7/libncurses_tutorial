@@ -82,8 +82,6 @@ build src/CMakeFiles/helloworld.dir/helloworld.cpp.o: CXX_COMPILER__helloworld_R
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/helloworld.dir
   OBJECT_FILE_DIR = src/CMakeFiles/helloworld.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/helloworld.dir/
-  TARGET_PDB = helloworld.pdb
 
 
 # =============================================================================
@@ -91,18 +89,17 @@ build src/CMakeFiles/helloworld.dir/helloworld.cpp.o: CXX_COMPILER__helloworld_R
 
 
 #############################################
-# Link the executable helloworld
+# Link the executable src/helloworld
 
-build helloworld: CXX_EXECUTABLE_LINKER__helloworld_Release src/CMakeFiles/helloworld.dir/helloworld.cpp.o
+build src/helloworld: CXX_EXECUTABLE_LINKER__helloworld_Release src/CMakeFiles/helloworld.dir/helloworld.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/helloworld.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/helloworld.dir/
-  TARGET_FILE = helloworld
-  TARGET_PDB = helloworld.pdb
+  TARGET_FILE = src/helloworld
+  TARGET_PDB = helloworld.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example2
@@ -118,8 +115,6 @@ build src/CMakeFiles/example2.dir/example2.cpp.o: CXX_COMPILER__example2_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example2.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example2.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example2.dir/
-  TARGET_PDB = example2.pdb
 
 
 # =============================================================================
@@ -127,18 +122,17 @@ build src/CMakeFiles/example2.dir/example2.cpp.o: CXX_COMPILER__example2_Release
 
 
 #############################################
-# Link the executable example2
+# Link the executable src/example2
 
-build example2: CXX_EXECUTABLE_LINKER__example2_Release src/CMakeFiles/example2.dir/example2.cpp.o
+build src/example2: CXX_EXECUTABLE_LINKER__example2_Release src/CMakeFiles/example2.dir/example2.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example2.dir/
-  TARGET_FILE = example2
-  TARGET_PDB = example2.pdb
+  TARGET_FILE = src/example2
+  TARGET_PDB = example2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example3
@@ -154,8 +148,6 @@ build src/CMakeFiles/example3.dir/example3.cpp.o: CXX_COMPILER__example3_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example3.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example3.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example3.dir/
-  TARGET_PDB = example3.pdb
 
 
 # =============================================================================
@@ -163,18 +155,17 @@ build src/CMakeFiles/example3.dir/example3.cpp.o: CXX_COMPILER__example3_Release
 
 
 #############################################
-# Link the executable example3
+# Link the executable src/example3
 
-build example3: CXX_EXECUTABLE_LINKER__example3_Release src/CMakeFiles/example3.dir/example3.cpp.o
+build src/example3: CXX_EXECUTABLE_LINKER__example3_Release src/CMakeFiles/example3.dir/example3.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example3.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example3.dir/
-  TARGET_FILE = example3
-  TARGET_PDB = example3.pdb
+  TARGET_FILE = src/example3
+  TARGET_PDB = example3.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example4
@@ -190,8 +181,6 @@ build src/CMakeFiles/example4.dir/example4.cpp.o: CXX_COMPILER__example4_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example4.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example4.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example4.dir/
-  TARGET_PDB = example4.pdb
 
 
 # =============================================================================
@@ -199,18 +188,17 @@ build src/CMakeFiles/example4.dir/example4.cpp.o: CXX_COMPILER__example4_Release
 
 
 #############################################
-# Link the executable example4
+# Link the executable src/example4
 
-build example4: CXX_EXECUTABLE_LINKER__example4_Release src/CMakeFiles/example4.dir/example4.cpp.o
+build src/example4: CXX_EXECUTABLE_LINKER__example4_Release src/CMakeFiles/example4.dir/example4.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example4.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example4.dir/
-  TARGET_FILE = example4
-  TARGET_PDB = example4.pdb
+  TARGET_FILE = src/example4
+  TARGET_PDB = example4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example5
@@ -226,8 +214,6 @@ build src/CMakeFiles/example5.dir/example5.cpp.o: CXX_COMPILER__example5_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example5.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example5.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example5.dir/
-  TARGET_PDB = example5.pdb
 
 
 # =============================================================================
@@ -235,18 +221,17 @@ build src/CMakeFiles/example5.dir/example5.cpp.o: CXX_COMPILER__example5_Release
 
 
 #############################################
-# Link the executable example5
+# Link the executable src/example5
 
-build example5: CXX_EXECUTABLE_LINKER__example5_Release src/CMakeFiles/example5.dir/example5.cpp.o
+build src/example5: CXX_EXECUTABLE_LINKER__example5_Release src/CMakeFiles/example5.dir/example5.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example5.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example5.dir/
-  TARGET_FILE = example5
-  TARGET_PDB = example5.pdb
+  TARGET_FILE = src/example5
+  TARGET_PDB = example5.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example6
@@ -262,8 +247,6 @@ build src/CMakeFiles/example6.dir/example6.cpp.o: CXX_COMPILER__example6_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example6.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example6.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example6.dir/
-  TARGET_PDB = example6.pdb
 
 
 # =============================================================================
@@ -271,18 +254,17 @@ build src/CMakeFiles/example6.dir/example6.cpp.o: CXX_COMPILER__example6_Release
 
 
 #############################################
-# Link the executable example6
+# Link the executable src/example6
 
-build example6: CXX_EXECUTABLE_LINKER__example6_Release src/CMakeFiles/example6.dir/example6.cpp.o
+build src/example6: CXX_EXECUTABLE_LINKER__example6_Release src/CMakeFiles/example6.dir/example6.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example6.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example6.dir/
-  TARGET_FILE = example6
-  TARGET_PDB = example6.pdb
+  TARGET_FILE = src/example6
+  TARGET_PDB = example6.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example7
@@ -298,8 +280,6 @@ build src/CMakeFiles/example7.dir/example7.cpp.o: CXX_COMPILER__example7_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example7.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example7.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example7.dir/
-  TARGET_PDB = example7.pdb
 
 
 # =============================================================================
@@ -307,18 +287,17 @@ build src/CMakeFiles/example7.dir/example7.cpp.o: CXX_COMPILER__example7_Release
 
 
 #############################################
-# Link the executable example7
+# Link the executable src/example7
 
-build example7: CXX_EXECUTABLE_LINKER__example7_Release src/CMakeFiles/example7.dir/example7.cpp.o
+build src/example7: CXX_EXECUTABLE_LINKER__example7_Release src/CMakeFiles/example7.dir/example7.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example7.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example7.dir/
-  TARGET_FILE = example7
-  TARGET_PDB = example7.pdb
+  TARGET_FILE = src/example7
+  TARGET_PDB = example7.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target example8
@@ -334,8 +313,6 @@ build src/CMakeFiles/example8.dir/example8.cpp.o: CXX_COMPILER__example8_Release
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   OBJECT_DIR = src/CMakeFiles/example8.dir
   OBJECT_FILE_DIR = src/CMakeFiles/example8.dir
-  TARGET_COMPILE_PDB = src/CMakeFiles/example8.dir/
-  TARGET_PDB = example8.pdb
 
 
 # =============================================================================
@@ -343,18 +320,17 @@ build src/CMakeFiles/example8.dir/example8.cpp.o: CXX_COMPILER__example8_Release
 
 
 #############################################
-# Link the executable example8
+# Link the executable src/example8
 
-build example8: CXX_EXECUTABLE_LINKER__example8_Release src/CMakeFiles/example8.dir/example8.cpp.o
+build src/example8: CXX_EXECUTABLE_LINKER__example8_Release src/CMakeFiles/example8.dir/example8.cpp.o
   FLAGS = -O3 -std=c++11 -lncurses -O3 -DNDEBUG
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lncurses
   OBJECT_DIR = src/CMakeFiles/example8.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/CMakeFiles/example8.dir/
-  TARGET_FILE = example8
-  TARGET_PDB = example8.pdb
+  TARGET_FILE = src/example8
+  TARGET_PDB = example8.dbg
 
 
 #############################################
@@ -382,6 +358,22 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build example2: phony src/example2
+
+build example3: phony src/example3
+
+build example4: phony src/example4
+
+build example5: phony src/example5
+
+build example6: phony src/example6
+
+build example7: phony src/example7
+
+build example8: phony src/example8
+
+build helloworld: phony src/helloworld
+
 # =============================================================================
 # Folder targets.
 
@@ -397,7 +389,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/wr/Documents/libncurses_tutorial/build/src
 
-build src/all: phony helloworld example2 example3 example4 example5 example6 example7 example8
+build src/all: phony src/helloworld src/example2 src/example3 src/example4 src/example5 src/example6 src/example7 src/example8
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -411,14 +403,14 @@ build src/all: phony helloworld example2 example3 example4 example5 example6 exa
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../src/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang.cmake /usr/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../src/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../src/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang.cmake /usr/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../src/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/Clang.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
 
 
 #############################################
