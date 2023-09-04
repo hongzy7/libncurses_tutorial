@@ -39,6 +39,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-14")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch2_Hello_World/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch4_Initialization/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch6_Output_Functions/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch7_Input_Functions/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch8_Attributes/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows/cmake_install.cmake")
+
 endif()
 

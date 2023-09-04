@@ -1,42 +1,42 @@
 [
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/helloworld.dir/helloworld.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/helloworld.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/helloworld.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch2_Hello_World",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/helloworld.dir/helloworld.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch2_Hello_World/helloworld.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch2_Hello_World/helloworld.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example2.dir/example2.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example2.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example2.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch4_Initialization",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example2.dir/example2.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch4_Initialization/example2.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch4_Initialization/example2.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example3.dir/example3.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example3.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example3.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch6_Output_Functions",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example3.dir/example3.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch6_Output_Functions/example3.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch6_Output_Functions/example3.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example4.dir/example4.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example4.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example4.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch7_Input_Functions",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example4.dir/example4.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch7_Input_Functions/example4.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch7_Input_Functions/example4.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example5.dir/example5.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example5.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example5.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch8_Attributes",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example5.dir/example5.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch8_Attributes/example5.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch8_Attributes/example5.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example6.dir/example6.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example6.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example6.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch8_Attributes",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example6.dir/example6.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch8_Attributes/example6.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch8_Attributes/example6.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example7.dir/example7.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example7.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example7.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example7.dir/example7.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch9_Windows/example7.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch9_Windows/example7.cpp"
 },
 {
-  "directory": "/home/wr/Documents/libncurses_tutorial/build",
-  "command": "/usr/bin/clang++-14 -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o src/CMakeFiles/example8.dir/example8.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/example8.cpp",
-  "file": "/home/wr/Documents/libncurses_tutorial/src/example8.cpp"
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows",
+  "command": "/usr/bin/c++   -O3 -std=c++11 -lncurses -O3 -DNDEBUG -o CMakeFiles/example8.dir/example8.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch9_Windows/example8.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch9_Windows/example8.cpp"
 }
 ]
