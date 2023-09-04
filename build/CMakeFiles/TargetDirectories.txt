@@ -28,3 +28,6 @@
 /home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir
 /home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/edit_cache.dir
 /home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/CMakeFiles/rebuild_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch12_Interfacing_with_the_mouse/CMakeFiles/edit_cache.dir
+/home/wr/Documents/libncurses_tutorial/build/src/ch12_Interfacing_with_the_mouse/CMakeFiles/rebuild_cache.dir

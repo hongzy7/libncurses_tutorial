@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/ch12_Interfacing_with_the_mouse",
+		"source" : "src/ch12_Interfacing_with_the_mouse"
+	}
+}

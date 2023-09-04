@@ -246,6 +246,19 @@ example10/fast:
 	$(MAKE) $(MAKESILENT) -f src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/build.make src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/build
 .PHONY : example10/fast
 
+#=============================================================================
+# Target rules for targets named example11
+
+# Build rule for target.
+example11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example11
+.PHONY : example11
+
+# fast build rule for target.
+example11/fast:
+	$(MAKE) $(MAKESILENT) -f src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build.make src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build
+.PHONY : example11/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -255,6 +268,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... example10"
+	@echo "... example11"
 	@echo "... example2"
 	@echo "... example3"
 	@echo "... example4"

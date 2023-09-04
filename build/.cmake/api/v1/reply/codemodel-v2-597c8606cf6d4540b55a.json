@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src"
+				},
+				{
+					"build" : "src/ch2_Hello_World",
+					"jsonFile" : "directory-src.ch2_Hello_World-Release-edfc25119b5a9c511df4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch2_Hello_World",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "src/ch4_Initialization",
+					"jsonFile" : "directory-src.ch4_Initialization-Release-50781aa9bd2676fe5e4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch4_Initialization",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/ch6_Output_Functions",
+					"jsonFile" : "directory-src.ch6_Output_Functions-Release-decfa125787eec1f8ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch6_Output_Functions",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/ch7_Input_Functions",
+					"jsonFile" : "directory-src.ch7_Input_Functions-Release-165c9816f6ff38b61c11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch7_Input_Functions",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/ch8_Attributes",
+					"jsonFile" : "directory-src.ch8_Attributes-Release-9ff466c2b17062ce1640.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch8_Attributes",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "src/ch9_Windows",
+					"jsonFile" : "directory-src.ch9_Windows-Release-121ac90c3e13bf7d5a6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch9_Windows",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/ch10_Colors",
+					"jsonFile" : "directory-src.ch10_Colors-Release-076e2313c41ca0a073f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch10_Colors",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/ch11_Interfacing_with_the_key_board",
+					"jsonFile" : "directory-src.ch11_Interfacing_with_the_key_board-Release-e3d3856fa21a838e68e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch11_Interfacing_with_the_key_board",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/ch12_Interfacing_with_the_mouse",
+					"jsonFile" : "directory-src.ch12_Interfacing_with_the_mouse-Release-7a8fed4381e144ac7455.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ch12_Interfacing_with_the_mouse",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ncurses_tutorial"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "example10::@5ce2a078383c873702ab",
+					"jsonFile" : "target-example10-Release-a2e8a22bf8e09b409ee9.json",
+					"name" : "example10",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "example11::@abd9d26c0088ca4ceeeb",
+					"jsonFile" : "target-example11-Release-6db708cf11667690e8e1.json",
+					"name" : "example11",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "example2::@c9fb9b96016baa05a69a",
+					"jsonFile" : "target-example2-Release-85027ff59407e6c87707.json",
+					"name" : "example2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "example3::@ab924d88ef8cf56ef0e7",
+					"jsonFile" : "target-example3-Release-0afe362ed2248ccd5006.json",
+					"name" : "example3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example4::@e9b29ae7dbe34cd86fd4",
+					"jsonFile" : "target-example4-Release-56315b4c974fc49d2ddb.json",
+					"name" : "example4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "example5::@757153f9c0c7761a199c",
+					"jsonFile" : "target-example5-Release-cf17c182bc23cdc89014.json",
+					"name" : "example5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "example6::@757153f9c0c7761a199c",
+					"jsonFile" : "target-example6-Release-06f9c666fc89da38457a.json",
+					"name" : "example6",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "example7::@37d62adc656ebc54bb77",
+					"jsonFile" : "target-example7-Release-78037a2e1776861dcb53.json",
+					"name" : "example7",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "example8::@37d62adc656ebc54bb77",
+					"jsonFile" : "target-example8-Release-23590ed50b365b8c1b00.json",
+					"name" : "example8",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "example9::@a800b2f9cf48c8b5efec",
+					"jsonFile" : "target-example9-Release-010ad416e9345ff69f5f.json",
+					"name" : "example9",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "helloworld::@123ec040fe71302bd9c4",
+					"jsonFile" : "target-helloworld-Release-dfe266df7ee781a50269.json",
+					"name" : "helloworld",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wr/Documents/libncurses_tutorial/build",
+		"source" : "/home/wr/Documents/libncurses_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

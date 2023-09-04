@@ -86,6 +86,7 @@ src/all: src/ch8_Attributes/all
 src/all: src/ch9_Windows/all
 src/all: src/ch10_Colors/all
 src/all: src/ch11_Interfacing_with_the_key_board/all
+src/all: src/ch12_Interfacing_with_the_mouse/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -97,6 +98,7 @@ src/preinstall: src/ch8_Attributes/preinstall
 src/preinstall: src/ch9_Windows/preinstall
 src/preinstall: src/ch10_Colors/preinstall
 src/preinstall: src/ch11_Interfacing_with_the_key_board/preinstall
+src/preinstall: src/ch12_Interfacing_with_the_mouse/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
@@ -108,6 +110,7 @@ src/clean: src/ch8_Attributes/clean
 src/clean: src/ch9_Windows/clean
 src/clean: src/ch10_Colors/clean
 src/clean: src/ch11_Interfacing_with_the_key_board/clean
+src/clean: src/ch12_Interfacing_with_the_mouse/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -139,6 +142,21 @@ src/ch11_Interfacing_with_the_key_board/preinstall:
 # Recursive "clean" directory target.
 src/ch11_Interfacing_with_the_key_board/clean: src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/clean
 .PHONY : src/ch11_Interfacing_with_the_key_board/clean
+
+#=============================================================================
+# Directory level rules for directory src/ch12_Interfacing_with_the_mouse
+
+# Recursive "all" directory target.
+src/ch12_Interfacing_with_the_mouse/all: src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/all
+.PHONY : src/ch12_Interfacing_with_the_mouse/all
+
+# Recursive "preinstall" directory target.
+src/ch12_Interfacing_with_the_mouse/preinstall:
+.PHONY : src/ch12_Interfacing_with_the_mouse/preinstall
+
+# Recursive "clean" directory target.
+src/ch12_Interfacing_with_the_mouse/clean: src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/clean
+.PHONY : src/ch12_Interfacing_with_the_mouse/clean
 
 #=============================================================================
 # Directory level rules for directory src/ch2_Hello_World
@@ -241,7 +259,7 @@ src/ch9_Windows/clean: src/ch9_Windows/CMakeFiles/example8.dir/clean
 src/ch2_Hello_World/CMakeFiles/helloworld.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch2_Hello_World/CMakeFiles/helloworld.dir/build.make src/ch2_Hello_World/CMakeFiles/helloworld.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch2_Hello_World/CMakeFiles/helloworld.dir/build.make src/ch2_Hello_World/CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=19,20 "Built target helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=21,22 "Built target helloworld"
 .PHONY : src/ch2_Hello_World/CMakeFiles/helloworld.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,7 +285,7 @@ src/ch2_Hello_World/CMakeFiles/helloworld.dir/clean:
 src/ch4_Initialization/CMakeFiles/example2.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch4_Initialization/CMakeFiles/example2.dir/build.make src/ch4_Initialization/CMakeFiles/example2.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch4_Initialization/CMakeFiles/example2.dir/build.make src/ch4_Initialization/CMakeFiles/example2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=3,4 "Built target example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=5,6 "Built target example2"
 .PHONY : src/ch4_Initialization/CMakeFiles/example2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -293,7 +311,7 @@ src/ch4_Initialization/CMakeFiles/example2.dir/clean:
 src/ch6_Output_Functions/CMakeFiles/example3.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch6_Output_Functions/CMakeFiles/example3.dir/build.make src/ch6_Output_Functions/CMakeFiles/example3.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch6_Output_Functions/CMakeFiles/example3.dir/build.make src/ch6_Output_Functions/CMakeFiles/example3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=5,6 "Built target example3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=7,8 "Built target example3"
 .PHONY : src/ch6_Output_Functions/CMakeFiles/example3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -319,7 +337,7 @@ src/ch6_Output_Functions/CMakeFiles/example3.dir/clean:
 src/ch7_Input_Functions/CMakeFiles/example4.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch7_Input_Functions/CMakeFiles/example4.dir/build.make src/ch7_Input_Functions/CMakeFiles/example4.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch7_Input_Functions/CMakeFiles/example4.dir/build.make src/ch7_Input_Functions/CMakeFiles/example4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=7,8 "Built target example4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=9,10 "Built target example4"
 .PHONY : src/ch7_Input_Functions/CMakeFiles/example4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,7 +363,7 @@ src/ch7_Input_Functions/CMakeFiles/example4.dir/clean:
 src/ch8_Attributes/CMakeFiles/example5.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch8_Attributes/CMakeFiles/example5.dir/build.make src/ch8_Attributes/CMakeFiles/example5.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch8_Attributes/CMakeFiles/example5.dir/build.make src/ch8_Attributes/CMakeFiles/example5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=9,10 "Built target example5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=11,12 "Built target example5"
 .PHONY : src/ch8_Attributes/CMakeFiles/example5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -371,7 +389,7 @@ src/ch8_Attributes/CMakeFiles/example5.dir/clean:
 src/ch8_Attributes/CMakeFiles/example6.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch8_Attributes/CMakeFiles/example6.dir/build.make src/ch8_Attributes/CMakeFiles/example6.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch8_Attributes/CMakeFiles/example6.dir/build.make src/ch8_Attributes/CMakeFiles/example6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=11,12 "Built target example6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=13,14 "Built target example6"
 .PHONY : src/ch8_Attributes/CMakeFiles/example6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -397,7 +415,7 @@ src/ch8_Attributes/CMakeFiles/example6.dir/clean:
 src/ch9_Windows/CMakeFiles/example7.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch9_Windows/CMakeFiles/example7.dir/build.make src/ch9_Windows/CMakeFiles/example7.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch9_Windows/CMakeFiles/example7.dir/build.make src/ch9_Windows/CMakeFiles/example7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=13,14 "Built target example7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=15,16 "Built target example7"
 .PHONY : src/ch9_Windows/CMakeFiles/example7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -423,7 +441,7 @@ src/ch9_Windows/CMakeFiles/example7.dir/clean:
 src/ch9_Windows/CMakeFiles/example8.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch9_Windows/CMakeFiles/example8.dir/build.make src/ch9_Windows/CMakeFiles/example8.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch9_Windows/CMakeFiles/example8.dir/build.make src/ch9_Windows/CMakeFiles/example8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=15,16 "Built target example8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=17,18 "Built target example8"
 .PHONY : src/ch9_Windows/CMakeFiles/example8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -449,7 +467,7 @@ src/ch9_Windows/CMakeFiles/example8.dir/clean:
 src/ch10_Colors/CMakeFiles/example9.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ch10_Colors/CMakeFiles/example9.dir/build.make src/ch10_Colors/CMakeFiles/example9.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ch10_Colors/CMakeFiles/example9.dir/build.make src/ch10_Colors/CMakeFiles/example9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=17,18 "Built target example9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=19,20 "Built target example9"
 .PHONY : src/ch10_Colors/CMakeFiles/example9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -493,6 +511,32 @@ example10: src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/rule
 src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/build.make src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/clean
 .PHONY : src/ch11_Interfacing_with_the_key_board/CMakeFiles/example10.dir/clean
+
+#=============================================================================
+# Target rules for target src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir
+
+# All Build rule for target.
+src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build.make src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build.make src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wr/Documents/libncurses_tutorial/build/CMakeFiles --progress-num=3,4 "Built target example11"
+.PHONY : src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/all
+
+# Build rule for subdir invocation for target.
+src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wr/Documents/libncurses_tutorial/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wr/Documents/libncurses_tutorial/build/CMakeFiles 0
+.PHONY : src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/rule
+
+# Convenience name for target.
+example11: src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/rule
+.PHONY : example11
+
+# clean rule for target.
+src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/build.make src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/clean
+.PHONY : src/ch12_Interfacing_with_the_mouse/CMakeFiles/example11.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

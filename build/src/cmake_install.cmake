@@ -52,6 +52,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/wr/Documents/libncurses_tutorial/build/src/ch9_Windows/cmake_install.cmake")
   include("/home/wr/Documents/libncurses_tutorial/build/src/ch10_Colors/cmake_install.cmake")
   include("/home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board/cmake_install.cmake")
+  include("/home/wr/Documents/libncurses_tutorial/build/src/ch12_Interfacing_with_the_mouse/cmake_install.cmake")
 
 endif()
 

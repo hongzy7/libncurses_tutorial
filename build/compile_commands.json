@@ -48,5 +48,10 @@
   "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch11_Interfacing_with_the_key_board",
   "command": "/usr/bin/c++   -O3 -std=c++17 -lncurses -O3 -DNDEBUG -o CMakeFiles/example10.dir/example10.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch11_Interfacing_with_the_key_board/example10.cpp",
   "file": "/home/wr/Documents/libncurses_tutorial/src/ch11_Interfacing_with_the_key_board/example10.cpp"
+},
+{
+  "directory": "/home/wr/Documents/libncurses_tutorial/build/src/ch12_Interfacing_with_the_mouse",
+  "command": "/usr/bin/c++   -O3 -std=c++17 -lncurses -O3 -DNDEBUG -o CMakeFiles/example11.dir/example11.cpp.o -c /home/wr/Documents/libncurses_tutorial/src/ch12_Interfacing_with_the_mouse/example11.cpp",
+  "file": "/home/wr/Documents/libncurses_tutorial/src/ch12_Interfacing_with_the_mouse/example11.cpp"
 }
 ]
