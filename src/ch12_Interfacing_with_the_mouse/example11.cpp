@@ -153,8 +153,8 @@ int main() {
     case KEY_MOUSE:
       mvprintw(1, 1, "click");
       if (getmouse(&event) == OK) { /* When the user clicks left mouse button */
-        // if (event.bstate & BUTTON1_PRESSED) {
-        if (event.bstate & ((mmask_t)77)) {
+        if (event.bstate & BUTTON1_PRESSED) {
+        // if (event.bstate & ((mmask_t)77)) {
           report_choice(event.x + 1, event.y + 1, &choice);
           if (choice == -1) // Exit chosen
             goto end;

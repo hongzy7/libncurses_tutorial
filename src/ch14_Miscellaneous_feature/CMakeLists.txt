@@ -1,0 +1,2 @@
+add_executable(example12 example12.cpp)
+target_link_libraries(example12 ncurses)
